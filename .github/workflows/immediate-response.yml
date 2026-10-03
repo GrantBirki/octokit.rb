@@ -9,6 +9,8 @@ on:
   pull_request_target:
     types:
       - opened
+cache-mode: none
+
 jobs:
   respond-to-issue:
     if: ${{ github.actor != 'dependabot[bot]' && github.actor != 'renovate[bot]' && github.actor != 'githubactions[bot]' && github.actor != 'octokitbot' }}

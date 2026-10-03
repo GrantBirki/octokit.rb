@@ -22,6 +22,8 @@ on:
   schedule:
     - cron: '43 0 * * 6'
 
+cache-mode: none
+
 jobs:
   analyze:
     name: Analyze

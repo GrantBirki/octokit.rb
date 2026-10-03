@@ -6,6 +6,8 @@ on:
   pull_request_target:
     types: [reopened, opened]
 
+cache-mode: none
+
 jobs:
   add-to-project:
     name: Add issue to project
